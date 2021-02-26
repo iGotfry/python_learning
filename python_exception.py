@@ -8,3 +8,5 @@ try:
 
 except EOFError:
     print("Обработали исключение EOFError")
+except KeyboardInterrupt:
+    print("Обработали исключение KeyboardInterrupt")
